@@ -1,0 +1,121 @@
+<TABLE align="center"><tr><th>
+<A HREF="http://www.google.com/">
+<IMG SRC="http://www.google.com/logos/Logo_40wht.gif" 
+border="0" ALT="Google"></A>
+</th></tr>
+
+<!-- Search Google -->
+<tr><td align="center"><hr><h2><{$lang_gs_heading}></h2><i>
+<{$lang_gs_googles}></i></td></tr>
+<tr><td align="right">
+<FORM method=GET action="http://www.google.com/search" target="_new">
+<table><tr><th colspan="2"><{$lang_gs_find}></th></tr>
+<tr><td><{$land_gs_allwords}></td><td>
+<input type="text" value="" name="as_q" size="25"></td></tr><tr><td>
+<font size="-1"><{$lang_gs_exactphrase}></font></td><td>
+<input type="text" size="25" value="" name="as_epq"></td></tr><tr><td>
+<font size="-1"><{$lang_gs_oneword}></font></td><td>
+<input type="text" size="25" value="" name="as_oq"></td></tr><tr><td>
+<font size="-1"><{$lang_gs_noword}></font></td><td>
+<input type="text" size="25" value="" name="as_eq"></td></tr>
+<tr><th colspan="2"><{$lang_gs_lang}></th></tr>
+<tr><td><font size="-1"><{$lang_gs_retpagelang}></font></td><td>
+<font size="-1"><select name="lr">
+                  <option value=""><{$lang_gs_anylang}></option>
+				  <option value="lang_ar">Arabic</option>
+				  <option value="lang_bg">Bulgarian</option>
+				  <option value="lang_ca">Catalan</option>
+				  <option value="lang_zh-CN">Chinese&nbsp;(Simplified)</option>
+				  <option value="lang_zh-TW">Chinese&nbsp;(Traditional)</option>
+				  <option value="lang_hr">Croatian</option>
+				  <option value="lang_cs">Czech</option>
+				  <option value="lang_da">Danish</option>
+				  <option value="lang_nl">Dutch</option>
+				  <option value="lang_en">English</option>
+				  <option value="lang_et">Estonian</option>
+				  <option value="lang_fi">Finnish</option>
+				  <option value="lang_fr">French</option>
+				  <option value="lang_de">German</option>
+				  <option value="lang_el">Greek</option>
+				  <option value="lang_iw">Hebrew</option>
+				  <option value="lang_hu">Hungarian</option>
+				  <option value="lang_is">Icelandic</option>
+				  <option value="lang_id">Indonesian</option>
+				  <option value="lang_it">Italian</option>
+				  <option value="lang_ja">Japanese</option>
+				  <option value="lang_ko">Korean</option>
+				  <option value="lang_lv">Latvian</option>
+				  <option value="lang_lt">Lithuanian</option>
+				  <option value="lang_no">Norwegian</option>
+				  <option value="lang_pl">Polish</option>
+				  <option value="lang_pt">Portuguese</option>
+				  <option value="lang_ro">Romanian</option>
+				  <option value="lang_ru">Russian</option>
+				  <option value="lang_sr">Serbian</option>
+				  <option value="lang_sk">Slovak</option>
+				  <option value="lang_sl">Slovenian</option>
+				  <option value="lang_es">Spanish</option>
+				  <option value="lang_sv">Swedish</option>
+				  <option value="lang_tr">Turkish</option>
+			</select></font></td></tr>
+			<tr><td colspan="2"><table align="center" width="100%"><tr><th colspan="3"><{$lang_gs_fileformat}></th></tr>
+			<tr><td><select name="as_ft">
+			  <option value="i" selected="selected"><{$lang_gs_only}></option>
+			  <option value="e"><{$lang_gs_dont}></option>
+			</select></td><td><{$lang_gs_retresults}></td><td>
+			<font size="-1"><select name="as_filetype">
+			  <option value="" selected="selected"><{$lang_gs_anyformat}></option>
+			  <option value="pdf"><{$lang_gs_adobepdf}></option>
+			  <option value="ps"><{$lang_gs_adobeps}></option>
+			  <option value="doc"><{$lang_gs_msword}></option>
+			  <option value="xls"><{$lang_gs_msexcel}></option>
+			  <option value="ppt"><{$lang_gs_msppt}></option>
+			  <option value="rtf"><{$lang_gs_rtf}></option>
+			</select></font></td></tr></table></td></tr>
+			<tr><th colspan="2"><{$lang_gs_date}></th></tr>
+			<tr><td><{$lang_gs_dateret}></td><td>
+			<select name="as_qdr">
+			  <option value="all"><{$lang_gs_anytime}></option>
+			  <option value="m3"><{$lang_gs_past3m}></option>
+			  <option value="m6"><{$lang_gs_past6m}></option>
+			  <option value="y"><{$lang_gs_pasty}></option>
+			</select></td></tr>
+			<tr><th colspan="2"><{$lang_gs_numrange}></th></tr>
+			<tr><td><{$lang_gs_numret}></td><td>
+			<input size="5" name="as_nlo" value=""><{$lang_gs_and}><input size="5" name="as_nhi" value=""></td></tr>
+			<tr><th colspan="2"><{$lang_gs_occur}></th></tr>
+			<tr><td><{$lang_gs_occurret}></td><td>
+			<select name="as_occt">
+			  <option value="any" selected="selected"><{$lang_gs_anywhere}></option>
+			  <option value="title"><{$lang_gs_inthetitle}></option>
+			  <option value="body"><{$lang_gs_inthetext}></option>
+			  <option value="url"><{$lang_gs_intheurl}></option>
+			  <option value="links"><{$lang_gs_inthelinks}></option>
+			</select></td></tr>
+	<tr><td><{$lang_gs_resperpg}></td><td><select name="num">
+        <option value="10" selected="selected"><{$lang_gs_tenres}></option>
+        <option value="20"><{$lang_gs_twntyres}></option>
+        <option value="30"><{$lang_gs_thrtyres}></option>
+        <option value="50"><{$lang_gs_fiftyres}></option>
+        <option value="100"><{$lang_gs_hunres}></option>
+    </select></td></tr>
+    <tr><th colspan="2"><{$lang_gs_domain}></th></tr>
+    <tr><td><select name="as_dt">
+          <option value="i" selected="selected"><{$lang_gs_only}></option>
+          <option value="e"><{$lang_gs_dont}></option></select></td><td><{$lang_gs_dommsg}><br>
+          <input size="25" value="" name="as_sitesearch"><i>e.g. <{$lang_gs_thissite}>, google.com, .org&nbsp;&nbsp;<a href="http://www.google.com/help/refinesearch.html#domain" target="_new"><{$lang_gs_moreinfo}></a></i></td></tr></table>
+<br><A HREF="http://www.google.com/search?safe=vss">
+<IMG SRC="http://www.google.com/logos/Google_Safe.gif"
+ border="0" ALT="Google" width="115" height="45" align="absmiddle"></A>
+     <b><{$lang_gs_safes}></b> 
+       <input id="sfio" type="radio" checked="checked" value="images" name="safe">
+       <label for="sfio"><{$lang_gs_nofilt}></label>&nbsp;&nbsp;
+       <input id="ss" type="radio" value="active" name="safe"> 
+       <label for="ss"><{$lang_gs_filtw}><a href="http://www.google.com/help/customize.html#safe" target="_new"><{$lang_gs_safesearch}></a></label>
+ <br><INPUT type=submit name=btnG VALUE="Google Search">
+</FORM>
+<!-- Search Google -->
+    
+
+</td></tr></TABLE>
+

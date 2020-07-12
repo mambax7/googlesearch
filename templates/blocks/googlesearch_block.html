@@ -1,0 +1,20 @@
+<div align="center"><TABLE><tr><th>
+<A HREF="http://www.google.com/">
+<IMG SRC="http://www.google.com/logos/Logo_40wht.gif" width="64" height="27" border="0" ALT="Google"></A>
+</th></tr>
+<!-- Search Google -->
+<tr><td align="center"><hr><b><{$block.lang_gs_heading}></b><br><i><{$block.lang_gs_googles}></i></td></tr>
+<tr><td>
+<FORM method="GET" action="http://www.google.com/search" target="_new">
+<{$block.lang_gs_searchtext}><br><INPUT TYPE="text" name="q" size="15" maxlength="255" value=""><br>
+<input type="hidden" name="domains" value="<{$block.lang_servername}>"><br>
+<input type="radio" name="sitesearch" value="" checked> WWW <br><input type="radio" name="sitesearch" value="<{$block.lang_servername}>">&nbsp;<{$block.lang_servername}><br>
+<br><b><{$block.lang_gs_safes}>:</b><br>
+<input id="sfio" type="radio" checked="checked" value="images" name="safe">
+<label for="sfio"><{$block.lang_gs_nofilt}></label><br>
+<input id="ss" type="radio" value="active" name="safe">
+<label for="ss"><{$block.lang_gs_filtw}><a href="http://www.google.com/help/customize.html#safe" target="_new"><{$block.lang_gs_safesearch}></a></label>
+<br><INPUT type="submit" name="btnG" VALUE="Google Search">
+</FORM>
+<a href="<{$xoops_url}>/modules/googlesearch"><{$block.lang_gs_advsearch}></a></td></tr></table>
+</div>
